@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.Plohie {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(209, 207, 207);
+}
+.Garry {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(216, 213, 213);
+}
+.Slova {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(212, 209, 209);
+}
+.Carate {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(209, 206, 206);
+}
+.Mistitely {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 3px solid black;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: rgb(208, 202, 202);
+}
+.mini {
+  margin-left: 40rem;
+}
+
+img {
+  border-radius: 5px;
+}
+img:hover {
+  width: 205px;
+  height: 195px;
+  border-radius: 20px;
+  transform: scale(1.2);
+  filter: blur(0);
+  padding: 10px 10px;
+}
+button{
+width: 90px;
+height: 30px;
+background-color: rgb(67, 67, 238);
+
+}
+a{
+    text-decoration: none;
+}
